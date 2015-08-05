@@ -6,6 +6,8 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('firstName:string');
+  this.route('friends');
 });
 
 export default Router;
